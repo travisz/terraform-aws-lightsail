@@ -8,7 +8,7 @@
 
 ## Running
 ```hcl
-module 'instance-01' {
+module "instance-01" {
   source        = "git::https://github.com/travisz/terraform-aws?ref=main"
   az            = "us-east-1a"
   blueprint     = "plesk_ubuntu_17_8_11_1"
